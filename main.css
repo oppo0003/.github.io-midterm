@@ -1,4 +1,4 @@
-/* Set the body's font and background color */
+
 body {
     font-family: sans-serif;
     background-color: #aad4cf;
@@ -6,18 +6,16 @@ body {
     padding: 0;
 }
 
-/* Position the header relative to its container */
+
 header {
     position: relative;
     text-align: center;
 }
 
-/* Ensure the header image spans the full width */
 header img {
     width: 100%;
 }
 
-/* Center the heading text on the header image */
 header h1 {
     position: absolute;
     top: 50%;
@@ -27,8 +25,6 @@ header h1 {
     padding: 10px;
     color: white;
 }
-
-/* Style the navigation menu with flexbox */
 nav ul {
     list-style: none;
     padding: 0;
@@ -39,32 +35,25 @@ nav ul {
     justify-content: space-around;
     font-size: 25px;
 }
-
-/* Add separators between navigation items */
 nav ul li {
     padding: 5px 60px;
     position: relative;
 }
 nav ul li:not(:last-child) {
-    border-right: 2px solid black;
+    border-right: 2px solid rgb(91, 80, 80);
 }
-
-/* Make images float to the left with some margin */
 .image-float {
     float: left;
-    margin-right: 8px;
+    margin-right: 10px;
     width: 180px;
     padding: 10px;
 }
-
-/* Style the footer with text aligned to the right */
 footer {
     text-align: right;
     margin: 15px;
     padding: 15px;
 }
 
-/* Add padding and rounded corners to the facts section */
 .starfish-facts {
     padding: 10px;
     border-radius: 5px;
